@@ -24,7 +24,6 @@ export function Home() {
                     })
                 }
             </View>
-
             <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 100 }}>
                 <View className="flex-row flex-wrap">
                     {
