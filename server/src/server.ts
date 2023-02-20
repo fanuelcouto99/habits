@@ -1,15 +1,15 @@
-import Fastify from 'fastify';
-import cors from '@fastify/cors';
+import express from 'express';
+import cors from 'cors';
 import { appRoutes } from './routes';
 
-const app = Fastify();
+const app = express();
 
-app.register(cors);
+app.use(cors());
 
-app.register(appRoutes);
+app.use(express.json());
 
-app.listen({
-    port: 3333,
-}).then(() => {
-    console.log('HTTP: Server Running!')
+app.use(appRoutes);
+
+app.listen(3333, () => {
+    console.log('HTTP: Server Running!');
 });
