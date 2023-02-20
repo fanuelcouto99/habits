@@ -34,6 +34,8 @@ appRoutes.post('/habits', async (request: Request, response: Response) => {
             }
         }
     })
+
+    return response.status(201).send();
 });
 
 // Rota para listar os habitos disponiveis e quais foram completados
@@ -134,6 +136,8 @@ appRoutes.patch('/habits/:id/toggle', async (request: Request, response: Respons
             }
         });
     }
+
+    return response.status(201).send();
 
 });
 
