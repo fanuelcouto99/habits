@@ -76,7 +76,7 @@ appRoutes.get('/day', async (request: Request, response: Response) => {
 
     const completedHabits = day?.dayHabits.map(dayHabit => {
         return dayHabit.habit_id
-    })
+    }) ?? []
 
     return response.json({
         possibleHabits,
