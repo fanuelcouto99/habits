@@ -43,7 +43,7 @@ export function SummaryTable() {
             </div>
 
             <div className="grid grid-rows-7 grid-flow-col gap-3">
-                {
+                { summary.length > 0 &&
                     summaryDates.map(date => {
                         // Verificando se o dia listado é igual ao dia retornado do banco de dados
                         const dayInSummary = summary.find(day => {
@@ -54,7 +54,7 @@ export function SummaryTable() {
                             <HabitDay
                                 key={date.toString()}
                                 amount={dayInSummary?.amount}
-                                completed={dayInSummary?.completed}
+                                defaultCompleted={dayInSummary?.completed}
                                 date={date}
                             />
                         );
