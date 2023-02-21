@@ -33,7 +33,11 @@ export function HabitsList({ date }: HabitsListProps) {
         <div className="mt-6 flex flex-col gap-3">
             {habitsInfo?.possibleHabits.map(habit => {
                 return (
-                    <Checkbox.Root key={habit.id} className='flex items-center gap-3 group'>
+                    <Checkbox.Root
+                        key={habit.id}
+                        className='flex items-center gap-3 group'
+                        checked={habitsInfo.completedHabits.includes(habit.id)}
+                    >
                         <div className='h-8 w-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 group-data-[state=checked]:bg-green-500 group-data-[state=checked]:border-green-500'>
                             <Checkbox.Indicator>
                                 <Check size={20} color="white" />
