@@ -25,6 +25,7 @@ export function Habit() {
     const { date } = route.params as Params;
     const [loading, setLoading] = useState(true);
     const [dayInfo, setDayInfo] = useState<DayInfoProps | null>(null);
+    const [completedHabits, setCompletedHabits] = useState<string[]>([]);
 
     const parsedDate = dayjs(date);
     const dayOfWeek = parsedDate.format('dddd');
@@ -35,12 +36,17 @@ export function Habit() {
             setLoading(true);
             const response = await api.get('/day', { params: { date } });
             setDayInfo(response.data);
+            setCompletedHabits(response.data.completedHabits);
         } catch (error) {
             console.log(error);
             Alert.alert('Ops!', 'Não foi possível carregar as informações dos habitos!')
         } finally {
             setLoading(false);
         }
+    };
+
+    async function handleToggleHabit(habitId: string){
+
     };
 
     useEffect(() => {
@@ -69,7 +75,11 @@ export function Habit() {
                 <View className="mt-6">
                     {
                         dayInfo?.possibleHabits && dayInfo?.possibleHabits.map(habit => (
-                            <Checkbox key={habit.id} title={habit.title} checked={false} />
+                            <Checkbox
+                                key={habit.id}
+                                title={habit.title}
+                                checked={completedHabits.includes(habit.id)}
+                            />
                         ))
                     }
                 </View>
