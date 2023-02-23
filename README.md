@@ -38,6 +38,28 @@ No projeto foi usado também CSS, criado especificamente para ele, usando Tailwi
 
 ### :pencil: **Como usar na web**
 
+Navegando pela tela principal.
+
+<p align="center">
+   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/abrindo-botao.gif">
+</p>
+
+Enviando um feedback.
+
+<p align="center">
+   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/demonstrando.gif">
+</p>
+
+Verificando o recebimento do e-mail com feedback.
+
+<p align="center">
+   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/email.gif">
+</p>
+
+<hr>
+
+### :pencil: **Como usar no mobile**
+
 Abrindo o campo para selecionar o tipo de feedback.
 
 <p align="center">
