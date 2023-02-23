@@ -81,7 +81,7 @@ Criando um novo hábito.
 <p>Para a aplicação mobile também é preciso instalar as dependências necessárias, para isso basta acessar a pasta mobile pelo terminal, e executar o install.</p>
 
 ```bash
-  expo install
+  npx expo install
 ```
 
 <hr>
@@ -91,10 +91,6 @@ Criando um novo hábito.
 <p>Acessar a pasta server e alterar o arquivo .env com as configurações de base de dados local. Para o projeto está configurado uma base de dados em Sqlite3, disponibilizada junto com o projeto.</p> 
 
 <p>Para a conexão com o banco de dados, foi utilizado o Prisma, entretanto ele também suporta outros tipos de banco de dados. Mais informações na documentação http://prisma.io/</p>
-
-<!-- <p align="center">
-   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/knexfile.png">
-</p> -->
 
 <p>Configurado a base de dados, ou usado a que está no projeto, só será preciso executar o comando abaixo na pasta server, para que o servidor fique rodando, ele funciona na porta 3333</p>
 
@@ -115,5 +111,7 @@ Criando um novo hábito.
 <p>Na aplicação mobile só será preciso executar o start na pasta mobile, e a aplicação será carregada.</p>
 
 ```bash
-  expo start
+  npx expo start
 ```
+
+<p>Após carregar, basta scanear o QRCode que aparecerá na no terminal com o aplicativo do Expo para poder executar a aplicação no mobile.</p>
