@@ -10,23 +10,33 @@ Aplicação desenvolvida durante o NLW Setup, usando React, NodeJs e React Nativ
 
 <p align="center">
  <a href="#scroll-sobre-o-projeto">Sobre o projeto</a> •
- <a href="#pencil-como-usar">Como usar</a> •
+ <a href="#pencil-como-usar-na-web">Como usar na web</a> •
+ <a href="#pencil-como-usar-no-mobile">Como usar no mobile</a> •
  <a href="#rocket-executando-o-projeto">Instalação</a> •
 </p>
 
 ### :scroll: **Sobre o projeto**
 
-<p>Projeto para aprendizagem, construção de uma aplicação para envio de feedbacks sobre o sistema que está sendo usado. Podendo ser escolhido 3 tipos de feedback.</p>
-<p>Ao enviar a aplicação também faz o envio de um e-mail, com os dados do feedback. Passa esse projeto foi usado o Mailtrip como serviço de teste de envio.</p>
-<p>Para o desenvolvimento do projeto, foram criadas três aplicações, a primeira usando NodeJs para a construção do servidor, a segunda usando React para a criado da aplicação web.</p> 
+<p>Projeto criado para aprendizagem, visando a criação de uma aplicação para monitoramento de hábitos do usuário, para assim ter um controle diário da rotina.</p>
+<p>Ao criar um novo hábito, o usuário pode selecionar em quais dias da semana ele ficará disponível para marcar se o mesmo foi completado ou não.</p> 
+<p>Outro ponto é o controle por datas, onde não é possível marcar como completado um hábito em data passada. Assim como as datas futuras, também não ficam disponíveis para visualização.</p>
+<p>Para o desenvolvimento do projeto, foram criadas três aplicações, a primeira usando NodeJs para a construção do servidor backend, a segunda usando React para a criado da aplicação web.</p> 
 <p>E por fim, usando o expo foi feita a aplicação para mobile.
 No projeto foi usado também CSS, criado especificamente para ele, usando TailwindCSS.</p>
 
 <p align="center">
-   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/openFeedback.png">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/main.png">
 </p>
 
-### :pencil: **Como usar**
+<p align="center">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/detail.png">
+</p>
+
+<p align="center">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/new.png">
+</p>
+
+### :pencil: **Como usar na web**
 
 Abrindo o campo para selecionar o tipo de feedback.
 
