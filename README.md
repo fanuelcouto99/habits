@@ -4,8 +4,6 @@ Aplicação desenvolvida durante o NLW Setup, usando React, NodeJs e React Nativ
 
 <p align="center">
    <img src="https://github.com/fanuelcouto99/habits/blob/main/img/logo.svg" width="300">
-   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/node-js.png" width="300">
-   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/react.png" width="300">
 </p>
 
 <hr>
