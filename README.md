@@ -57,7 +57,7 @@ Criando um novo hábito.
 Navegando pela tela principal e acessando os hábitos já criados para atualização de status.
 
 <p align="center">
-   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/navigate-main-mobile.gif" width="400" height="800">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/navigate-main-mobile.gif" width="450" height="800">
 </p>
 
 Criando um novo hábito.
