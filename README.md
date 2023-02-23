@@ -38,44 +38,32 @@ No projeto foi usado também CSS, criado especificamente para ele, usando Tailwi
 
 ### :pencil: **Como usar na web**
 
-Navegando pela tela principal.
+Navegando pela tela principal e acessando os hábitos já criados para atualização de status.
 
 <p align="center">
-   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/abrindo-botao.gif">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/navigate-main.gif">
 </p>
 
-Enviando um feedback.
+Criando um novo hábito.
 
 <p align="center">
-   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/demonstrando.gif">
-</p>
-
-Verificando o recebimento do e-mail com feedback.
-
-<p align="center">
-   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/email.gif">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/new-habit.gif">
 </p>
 
 <hr>
 
 ### :pencil: **Como usar no mobile**
 
-Abrindo o campo para selecionar o tipo de feedback.
+Navegando pela tela principal e acessando os hábitos já criados para atualização de status.
 
 <p align="center">
-   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/abrindo-botao.gif">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/navigate-main-mobile.gif">
 </p>
 
-Enviando um feedback.
+Criando um novo hábito.
 
 <p align="center">
-   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/demonstrando.gif">
-</p>
-
-Verificando o recebimento do e-mail com feedback.
-
-<p align="center">
-   <img src="https://github.com/fanuelcouto99/Feedback-Widget/blob/main/img/email.gif">
+   <img src="https://github.com/fanuelcouto99/habits/blob/main/img/new-habit-mobile.gif">
 </p>
 
 <hr>
